@@ -10,6 +10,9 @@
 | 农田小溪 | `rural` | 16×16 | 小溪、木桥、条播农田与灌溉渠、稻草人 | 836×788 |
 | 下界 | `nether` | 16×24 | 岩浆湖、黑曜石地狱门、跨图天桥、两座塔楼 | 1030×774 |
 | 末地 | `end` | 32×32 | 浮空岛、中央祭坛与 3×3 传送门、10 根黑曜石柱 + 水晶 | 788×790 |
+<img width="836" height="788" alt="rural-16" src="https://github.com/user-attachments/assets/429614b1-104d-461e-a1d6-42c1cdba0386" />
+<img width="788" height="790" alt="end-32" src="https://github.com/user-attachments/assets/69619f02-a4b9-4d32-9856-312c07b4b3cd" />
+<img width="960" height="800" alt="detail-nether-towers" src="https://github.com/user-attachments/assets/15e8d5bb-efbb-47e9-bb0a-1c3b745056a4" />
 
 ## 安装
 
