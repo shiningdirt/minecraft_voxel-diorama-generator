@@ -1,0 +1,82 @@
+{
+  "name": "voxel-diorama",
+  "displayName": "Voxel Diorama",
+  "version": "1.0.0",
+  "description": "零依赖 Node 等距像素体素场景渲染器：把程序化体素世界光栅化成像素风 PNG，内置 4 个场景（乡村小世界 / 农田小溪 / 下界 / 末地），尺寸、等距角、背景、水位全部命令行可调。",
+  "author": {
+    "name": "dsworkplace",
+    "email": "dsworkplace@users.noreply.github.com"
+  },
+  "license": "MIT",
+  "entry": "src/cli.mjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "permissions": {
+    "filesystem": [
+      {
+        "scope": "write",
+        "path": "."
+      }
+    ],
+    "network": false,
+    "shell": false,
+    "env": []
+  },
+  "keywords": [
+    "voxel",
+    "isometric",
+    "pixel-art",
+    "minecraft",
+    "renderer",
+    "png",
+    "zero-dependency",
+    "node"
+  ],
+  "scenes": [
+    {
+      "id": "diorama",
+      "file": "src/scenes/voxel-diorama.mjs",
+      "size": "28x28",
+      "output": "1030x940",
+      "blocks": 2234
+    },
+    {
+      "id": "rural",
+      "file": "src/scenes/rural-16.mjs",
+      "size": "16x16",
+      "output": "836x788",
+      "blocks": 777
+    },
+    {
+      "id": "nether",
+      "file": "src/scenes/nether-16.mjs",
+      "size": "16x24",
+      "output": "1030x774",
+      "blocks": 1207
+    },
+    {
+      "id": "end",
+      "file": "src/scenes/end-32.mjs",
+      "size": "32x32",
+      "output": "788x790",
+      "blocks": 1818
+    }
+  ],
+  "scripts": {
+    "verify": "node scripts/verify.mjs",
+    "example": "node examples/minimal.mjs"
+  },
+  "files": [
+    "src/",
+    "examples/",
+    "scripts/",
+    "SKILL.md",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "manifest.json"
+  ]
+}
